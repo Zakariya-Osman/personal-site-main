@@ -1,0 +1,13 @@
+{
+    "extends": ["next/core-web-vitals", "next/typescript"],
+    "rules": {
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
+        "indent": ["error", 4, { "SwitchCase": 1, "VariableDeclarator": 1 }],
+        "no-tabs": 0,
+        "react/prop-types": 0,
+        "react/jsx-indent":  ["error", 4],
+        "react/jsx-indent-props":  ["error", 4],
+        "react/react-in-jsx-scope": "off",
+        "react/no-unescaped-entities": "off"
+    }
+}
